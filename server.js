@@ -28,7 +28,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 // Database configuration with mongoose
-mongoose.connect("mongodb://heroku_hrkpf99v:l5c9pa8etl7unte6te4jkt7dko@ds115583.mlab.com:15583/heroku_hrkpf99v"||"mongodb://localhost/newyorktimes");
+mongoose.connect("mongodb://heroku_szx38xqq:h30695s29q6ifeh0elu8dv73aa@ds127173.mlab.com:27173/heroku_szx38xqq");
 var db = mongoose.connection;
 
 // Show any mongoose errors
